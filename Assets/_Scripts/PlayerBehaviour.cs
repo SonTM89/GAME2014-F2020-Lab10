@@ -69,7 +69,7 @@ public class PlayerBehaviour : MonoBehaviour
         m_dustTrail = GetComponentInChildren<ParticleSystem>();
 
         // For screen shake
-        vcam1 = FindObjectOfType<CinemachineVirtualCamera>();
+        //vcam1 = FindObjectOfType<CinemachineVirtualCamera>();
         perlin = vcam1.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
     }
 
